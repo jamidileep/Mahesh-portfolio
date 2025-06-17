@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, Code, Smartphone, Globe, Zap, Users } from 'lucide-react';
+import { Palette, Code, Users } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -10,29 +10,14 @@ const Services = () => {
     },
     {
       icon: Code,
-      title: 'Web Development',
-      description: 'Building responsive and performant websites using modern technologies and best practices.',
-    },
-    {
-      icon: Smartphone,
-      title: 'App Development',
-      description: 'Developing native and cross-platform mobile applications for iOS and Android platforms.',
-    },
-    {
-      icon: Globe,
-      title: 'Digital Strategy',
-      description: 'Providing comprehensive digital solutions and strategies to help businesses grow online.',
-    },
-    {
-      icon: Zap,
-      title: 'Performance Optimization',
-      description: 'Optimizing websites and applications for maximum speed, efficiency, and user satisfaction.',
+      title: 'Web Design',
+      description: 'Building responsive and visually appealing web designs using modern design trends and best practices.',
     },
     {
       icon: Users,
-      title: 'Consulting',
-      description: 'Offering expert advice and consultation on digital products, user experience, and technology solutions.',
-    },
+      title: 'User-Centric Design',
+      description: 'Designing with the user in mind, creating experiences that are both functional and delightful for end users.',
+    }
   ];
 
   return (
@@ -43,8 +28,8 @@ const Services = () => {
             My Services
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            I offer a comprehensive range of digital services to help bring your ideas to life
-            and grow your business online.
+            I offer a comprehensive range of design services to help bring your ideas to life
+            and create exceptional user experiences.
           </p>
         </div>
 

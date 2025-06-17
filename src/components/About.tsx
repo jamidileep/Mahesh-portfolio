@@ -13,13 +13,8 @@ const About = () => {
           color: 'text-red-500'
         },
         {
-          category: 'Web Development',
-          description: 'Web app Development',
-          color: 'text-red-500'
-        },
-        {
-          category: 'App Development',
-          description: 'Building Android/iOS apps',
+          category: 'Web Designing',
+          description: 'Creating beautiful and responsive web designs',
           color: 'text-red-500'
         }
       ]
@@ -43,7 +38,7 @@ const About = () => {
         },
         {
           category: '2017 - 2018',
-          description: 'Bapu Primary High School - 10th class',
+          description: 'SRI MYTRI VIDYA NIKETHAN - Matriculation',
           color: 'text-red-500'
         }
       ]
@@ -71,10 +66,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet 
-              sapien quis, elementum molestie tellus. Pellentesque habitant morbi tristique senectus et 
-              netus et malesuada fames ac turpis egestas. Mauris eleifend magna id ante convallis 
-              mattis. Quisque in sem tristique, dictum sapien et, accumsan libero.
+              To secure a challenging position as a UI/UX Designer where I can apply my creative and technical skills in user interface and experience design, contribute to user-centric solutions, and continuously grow in a dynamic and innovative environment.
             </p>
 
             {/* Tabs */}

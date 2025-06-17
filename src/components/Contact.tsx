@@ -34,13 +34,8 @@ const Contact = () => {
   };
 
   const handleDownloadCV = () => {
-    // Create a dummy PDF download link
-    const link = document.createElement('a');
-    link.href = '#'; // In a real app, this would be the path to your CV PDF
-    link.download = 'Mahesh_CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // Open the Google Drive link in a new tab
+    window.open('https://drive.google.com/file/d/1fg7nLWIlykZXoaDWTx4zoBNPjaLmH20E/view', '_blank');
   };
 
   const contactInfo = [
